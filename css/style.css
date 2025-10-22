@@ -13,7 +13,7 @@
 :active,
 :hover,
 :focus{
-    outline: 0 !important;
+    outline: 0 ;
     outline-offset:0;
 }
 
@@ -144,7 +144,7 @@ p{
 
 .counter-section h2,
 .review-section h2,
-.book-food-text h2{
+.food-text h2{
     color:var(--white-color);
 }
 
@@ -254,6 +254,18 @@ p{
 .story-section h2{
   color:var(--primary-color);
 }
+.story-section .main-btn{
+    height: 1rem;
+    width:auto;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 0.9rem;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.story-section{
+    text-align: center;
+}
 
 
 .explore-food .card{
@@ -326,7 +338,7 @@ p{
     margin-top: 6rem;
 }
 
-.book-food{
+.food{
     width: 100%;
     background: url('../images/bg/bg-3.jpg') no-repeat center;
     background-size: cover;
@@ -375,4 +387,12 @@ p{
     font-size: 2rem;
     color:var(--white-color);
     padding: 0 2rem;    
+}
+
+
+.book-food {
+    text-align: row center;
+}
+.book-food .container {
+  margin-left: 100px;  
 }
